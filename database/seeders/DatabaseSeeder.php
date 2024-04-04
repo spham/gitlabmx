@@ -20,9 +20,9 @@ class DatabaseSeeder extends Seeder
             'name' => 'Amitav Roy',
             'email' => 'admin@admin.com',
             // 'password' => bcrypt('Password@123'),
-            'gitlab_id' => 917644,
+            'gitlab_id' => 56232356,
         ]);
 
-        Project::factory()->count(20)->create();
+        // Project::factory()->count(20)->create();
     }
 }
